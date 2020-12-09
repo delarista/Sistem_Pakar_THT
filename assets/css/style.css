@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}  
+
+/*-----------------Header-----------------*/
+
+header{
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    height: 55px;
+    box-shadow: 0 2px 8px -2px rgba(0,0,0,.2);
+}
+
+.logo{
+    float: left;
+    margin-left: 20px;
+}
+
+.logo a{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none; 
+    margin: 20px 10px;
+    padding: 18px;
+    text-align: center;
+}
+
+.menu{
+    float: right;
+    padding: 18px 10px;
+}
+
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu li a{
+    text-decoration: none;  
+    font-size: 16px;
+    text-align: center;
+    padding: 18px;
+}
+
+.menu li a:hover{
+    color: #bb5a5a;
+    transition: 0.5s;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*-----------------Akhir Header-----------------*/
+
+/*-----------------Main-----------------*/
+
+.content{
+    width: 100%;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    /*-----------------home-----------------*/
+
+.home{
+    background-color: #bb5a5a;
+    text-align: center;
+    padding: 120px 80px;
+    color: white;
+}
+
+.home h1{
+    padding: 20px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.home p{
+    font-size: 20px;
+}
+    /*-----------------Akhir Home-----------------*/
+
+
+.tittle{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+    /*-----------------About-----------------*/
+
+
+.about .deskripsi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.about .deskripsi .gambar img{
+    width: 600px;
+}
+
+.about .deskripsi .text{
+    margin: 0 20px 0 20px;
+    padding: 10px;
+}
+
+.about .deskripsi .text h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.about .deskripsi p{
+    text-align: justify;
+    padding-top: 40px;
+}
+
+    /*-----------------Akhir About-----------------*/
+    
+
+#services, #contact{
+    background-color: #fcf4f2;
+}
+
+
+         /*-----------------Card Setting-----------------*/
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    text-align: center;
+    padding: 10px;
+    width: 350px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 8px -2px rgba(0,0,0,.2);
+    background-color: white;
+}
+
+.card:hover{
+    box-shadow: 0 2px 10px 2px #bb5a5a;
+    transition-duration: 0.4s;
+}
+       
+
+            /*----------------- Akhir Card Setting-----------------*/
+
+
+    /*----------------- Services-----------------*/
+
+.tittle p{
+    margin-top: 20px;
+}
+.card .name, .icon, .caption, .button{
+    padding-bottom: 20px;
+}
+
+.card .icon img{
+    width: 80px;
+}
+
+.card .button button{
+    background-color: #bb5a5a;
+    color: white;
+    padding: 2px;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.card .button button:hover{
+    
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #bb5a5a;
+    color: black;
+    background-color: white;
+}
+
+    /*-----------------Akhir Service-----------------*/
+
+    
+    
+    /*-----------------Our Team-----------------*/
+
+.card .foto img{
+    border-radius: 50%;
+    margin-bottom: 20px 20px;
+    height: 200px;
+}
+
+.card .name{
+    padding: 20px;
+}
+
+.card .sosial{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fcf4f2;
+    padding: 10px;
+}
+.card .sosial img{
+    margin-left: 10px;
+    width: 20px;
+}
+    
+
+    /*-----------------Akhir Team-----------------*/
+
+
+    /*-------------------Aside------------------*/
+
+
+/*-----------------Footer-----------------*/
+
+footer{
+    background-color: #bb5a5a;
+    text-align: center;
+    padding: 18px;
+    color: white;
+    font-size: 14px;
+}
+
+/*-----------------Akhir Footer-----------------*/
+
+aside{
+    display: flex;
+    justify-content: center;
+}
+
+.profil{
+    padding: 10px;
+    margin: 20px auto;
+ }
+
+ .profil label{
+    font-weight: bold;
+ }
+
+ .profil img{
+     border-radius: 50px;
+ }
+
+ .profil label, p{
+     padding: 10px;
+ }
+
+
+ /*CSS DAFTAR PEYAKIT*/
+
+ .container .table1 {
+    margin: 50px auto;
+    align-items: center;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    border: 1px solid #f2f5f7;
+}
+ 
+.container .table1 tr th{
+    background: #bb5a5a;
+    color: #fff;
+    font-weight: normal;
+}
+ 
+.container .table1, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+ 
+.container .table1 tr:hover {
+    background-color: #f5f5f5;
+}
+ 
+.container .table1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+ /*Akhir CSS DAFTAR PEYAKIT*/
+
+@media screen and (max-width: 1024px){
+    .menu{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 992px) {
+
+    header{
+        height: 110px;
+    }
+    .logo{
+        margin-left: -5px;
+    }
+    .logo, .menu{
+        clear: both;
+        width: 100%;
+        text-align: center;
+        position: sticky;
+        z-index: 999;
+        display: inline;
+    }
+
+    .content, aside{
+        width: 100%;
+        padding: 0;
+    }
+
+    #home h1{
+        font-size: 50px;
+
+    }
+
+    #about .container .deskripsi{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .kontak input[type=text], input[type=submit]{
+        width: 100%;
+    }
+ }
+
