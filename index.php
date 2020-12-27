@@ -57,13 +57,10 @@
                                 <h4>Otitis Eksterna</h4>
                             </div>
                             <div class="icon">
-                                <img src="assets/images/banners.png" alt="Banner">
+                                <img src="assets/images/ear.png" alt="Otitis Eksterna">
                             </div>
                             <div class="caption">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                            </div>
-                            <div class="button">
-                                <button type="button">Detail</button>
+                                <p>Otitis eksterna adalah infeksi saluran telinga luar yang terjadi dari gendang telinga sampai luar kepala. Kondisi ini biasanya disebabkan oleh air yang tersisa di telinga setelah berenang. Kondisi ini juga mengakibatkan lingkungan lembap yang membantu pertumbuhan bakteri atau jamur. </p>
                             </div>
                         </div>
 
@@ -72,13 +69,10 @@
                                 <h4>Sinusitis</h4>
                             </div>
                             <div class="icon">
-                                <img src="assets/images/edit.png" alt="logo">
+                                <img src="assets/images/nose.png" alt="Sinusitis">
                             </div>
                             <div class="caption">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
-                            </div>
-                            <div class="button">
-                                <button type="button">Detail</button>
+                                <p>Sinusitis adalah inflamasi atau peradangan pada dinding sinus (rongga kecil yang saling terhubung melalui saluran udara di dalam tulang tengkorak). Sinusitis disebabkan oleh infeksi kuman. Kondisi ini lebih rentan dialami oleh perokok, atau orang yang sering berenang. Sinusitis juga dapat dipicu oleh kondisi medis tertentu, misalnya polip hidung dan rinitis alergi. </p>
                             </div>
                         </div>
 
@@ -87,43 +81,10 @@
                                 <h4>Tonsilitis</h4>
                             </div>
                             <div class="icon">
-                                <img src="assets/images/pack.png" alt="pack">
+                                <img src="assets/images/throat.png" alt="Tonsilitis>
                             </div>
                             <div class="caption">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
-                            <div class="button">
-                                <button type="button">Detail</button>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="name">
-                                <h4>Influenza</h4>
-                            </div>
-                            <div class="icon">
-                                <img src="assets/images/brochure.png" alt="brosur">
-                            </div>
-                            <div class="caption">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
-                            <div class="button">
-                                <button type="button">Detail</button>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="name">
-                                <h4>Faringitis</h4>
-                            </div>
-                            <div class="icon">
-                                <img src="assets/images/contact.png" alt="kartu">
-                            </div>
-                            <div class="caption">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
-                            <div class="button">
-                                <button type="button">Detail</button>
+                                <p>Tonsillitis atau radang amandel adalah kondisi di mana amandel mengalami peradangan atau inflamasi yang ditandai dengan membengkaknya amandel dan muncul rasa sakit di tenggorokan. Tonsillitis biasanya disebabkan oleh infeksi virus dan bakteri..</p>
                             </div>
                         </div>
 
@@ -132,15 +93,39 @@
                                 <h4>Tinnitus</h4>
                             </div>
                             <div class="icon">
-                                <img src="assets/images/description.png" alt="catalog">
+                                <img src="assets/images/ear.png" alt="Tinnitus">
                             </div>
                             <div class="caption">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p>Tinnitus adalah sensasi telinga berdenging yang bisa berlangsung dalam waktu yang lama atau dalam waktu singkat. Telinga berdenging dapat terjadi hanya di telinga kanan, telinga kiri, atau pada kedua telinga.</p>
+                            </div></p>
+                            
+                        </div>
+
+                        <div class="card">
+                            <div class="name">
+                                <h4>Influenza</h4>
                             </div>
-                            <div class="button">
-                                <button type="button">Detail</button>
+                            <div class="icon">
+                                <img src="assets/images/nose.png" alt="Influenza">
+                            </div>
+                            <div class="caption">
+                                <p>Influenza atau flu adalah infeksi virus yang menyerang hidung, tenggorokan, dan paru-paru. Penderita flu akan mengalami demam, sakit kepala, pilek, hidung tersumbat, serta batuk.</p>
                             </div>
                         </div>
+
+                        <div class="card">
+                            <div class="name">
+                                <h4>Faringitis</h4>
+                            </div>
+                            <div class="icon">
+                                <img src="assets/images/throat.png" alt="Faringitis">
+                            </div>
+                            <div class="caption">
+                                <p>Faringitis atau radang tenggorokan adalah peradangan pada tenggorokan atau faring. Kondisi ini ditandai dengan tenggorokan terasa nyeri, gatal, dan sulit menelan. Faringitis umumnya disebabkan oleh infeksi virus.</p>
+                            </div>
+                        </div>
+
+                        
 
                     </div>
                 </div>
@@ -209,15 +194,12 @@
                     </div>
                 </div>
             </article>
-
-            
-
+        </div>
     </main>
     
     <footer>
         <p>Copyright &#169; 2020 - CekTHT </p>
     </footer>
 
-    <script src="assets/app.js"></script>
 </body>
 </html>

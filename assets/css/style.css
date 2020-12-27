@@ -240,11 +240,13 @@ header{
     width: 20px;
 }
     
+.list-group-item{
+    margin-left: 20px;
+}
 
     /*-----------------Akhir Team-----------------*/
 
 
-    /*-------------------Aside------------------*/
 
 
 /*-----------------Footer-----------------*/
@@ -350,10 +352,6 @@ aside{
         justify-content: center;
         flex-direction: column;
         margin: 10px;
-    }
-
-    .kontak input[type=text], input[type=submit]{
-        width: 100%;
     }
  }
 

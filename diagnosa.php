@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cek THT</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
     <header>
@@ -23,10 +25,6 @@
 
     <main>
         <div class="content">
-            <div id="home" class="home">
-                <h1 class="tittle">Diagnosa Penyakit PHP</h1>    
-            </div>
-
             <article id="about" class="about">
                 <div class="container">
                     <div class="tittle">
@@ -42,14 +40,18 @@
                         </div>
                     </div>
                 </div>
+                <div class="container">
+                    <div class="tittle">
+                        <a class="btn btn-outline-danger" href="cek_diagnosa.php" role="button">MULAI KONSULTASI</a>
+                    </div>
+                </div>
             </article>    
 
     </main>
-    
+    <!--
     <footer>
         <p>Copyright &#169; 2020 - CekTHT </p>
     </footer>
-
-    <script src="assets/app.js"></script>
+-->
 </body>
 </html>
